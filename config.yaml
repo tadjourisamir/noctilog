@@ -1,0 +1,12 @@
+log_files:
+  - /var/log/audit/audit.log
+
+modules:
+  auditd_failed_login: true
+  auditd_sudo_fail: true
+
+output:
+  jsonl: output/events.jsonl
+  db: output/events.db
+
+log_tail_lines: 200

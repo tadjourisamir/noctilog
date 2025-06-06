@@ -1,0 +1,13 @@
+############### SUDO FAILURE ATTEMPTS ###############
+
+# Failed sudo commands (UID ≠ EUID and EUID = 0 → privilege escalation attempt)
+-a always,exit -F arch=b64 -S execve -C uid!=euid -F euid=0 -k sudo_fail
+-a always,exit -F arch=b32 -S execve -C uid!=euid -F euid=0 -k sudo_fail
+
+# Execution of the sudo binary
+-w /usr/bin/sudo -p x -k sudo_exec
+
+############### FAILED LOGIN DETECTION ###############
+
+# Failed logins are logged via USER_LOGIN events (no custom rule required)
+
