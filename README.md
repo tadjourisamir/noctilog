@@ -1,6 +1,6 @@
 ![29604650-906f-4a3e-88ac-7bfe371a40fb](https://github.com/user-attachments/assets/175b713e-cee9-44eb-b1e3-9fc991198548)
 
-# 🦉 Noctilog - Lightweight SIEM Dashboard for Linux
+# Noctilog - Lightweight SIEM Dashboard for Linux
 
 **Noctilog** is a minimalist and educational SIEM (Security Information and Event Management) tool designed for **Unix-like systems**, specifically tested on **Debian-based distributions** (e.g. Ubuntu, Xubuntu, Kali, etc.).
 
