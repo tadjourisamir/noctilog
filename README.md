@@ -4,6 +4,9 @@
 
 **Noctilog** is a minimalist and educational SIEM (Security Information and Event Management) tool designed for **Unix-like systems**, specifically tested on **Debian-based distributions** (e.g. Ubuntu, Xubuntu, Kali, etc.).
 
+![Capture d’écran 2025-06-06 183148](https://github.com/user-attachments/assets/935b2ae8-4d65-414f-91cd-806fe046bccc)
+
+
 ⚠️ **This project is not production-ready.**  
 It's a **personal experiment** developed while learning about Linux systems, auditing, and security monitoring.  
 
